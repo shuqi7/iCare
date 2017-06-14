@@ -1,0 +1,124 @@
+@import url(normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie|Sintony|Josefin+Slab:400,700);
+html {
+    background: #FFFDF4;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 2em 4em;
+}
+
+
+h1 a{
+    font-family: 'Love Ya Like A Sister';
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 3em;
+    margin-left: 0.5em;
+}
+.navbar {
+    font-family: 'Sintony';
+    color: black;
+}
+
+
+img {
+    background: transparent;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}  
+
+li{
+    display: inline;
+    font-size: 1.2em;
+    padding: 1% 5.67%;
+}
+
+li:hover{
+    background-color:#fcbfd9;
+ 
+}
+
+.navbar{
+    width:100%;
+    background-color: 
+}
+
+
+
+
+.logo{
+    width: 100px;
+    margin-left: 10px;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+
+.header{
+	width:100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+#content{
+        background: #FFFDF4;
+        text-align: left;
+        width:100%
+        height:1000px;  
+        float:left;
+        font-size:25px;
+        font-family: 'Sintony';
+        padding-bottom: 100px;
+        padding-left:100px;
+        padding-top:100px;
+        padding-right:100px;
+
+}
+
+.subheader{
+    float:right;
+    font-size: 20px;
+    margin-top: 3em;
+    margin-right: 2em;
+    font-family: "Love Ya Like A Sister";
+
+}
+
+#baby2 {
+    width:100%;
+    height:auto;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 2em;
+    font-family: 'Sintony';
+    font-size: 15px;
+    color:#b2a796;
+}
+

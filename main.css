@@ -1,0 +1,195 @@
+@import url(normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie|Sintony|Josefin+Slab:400,700);
+html {
+    background: #FFFDF4;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 2em 4em;
+}
+
+
+
+h2, h3, h4, h5, h6 {
+    color: #222;
+    font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    
+}
+
+.subheader{
+    float:right;
+    font-size: 20px;
+    margin-top: 3em;
+    margin-right: 2em;
+    font-family: "Love Ya Like A Sister";
+
+}
+
+h1 a{
+    font-family: 'Love Ya Like A Sister';
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 3em;
+    margin-left: 0.5em;
+}
+
+.cc1{
+    width: 100%;
+    height:auto;
+    
+}
+
+
+p{
+	font-family: 'Sintony', Helvetica, Arial, sans-serif;
+	font-size: 1.6em;
+}
+
+
+iframe{
+    margin:0 auto;
+    width:100%;
+    border:none;
+    height:1700px;
+}
+
+a {
+    font-family: 'Sintony';
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    background: transparent;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}  
+
+li{
+    display: inline;
+    font-size: 1.2em;
+    padding: 1% 5.67%;
+}
+
+li:hover{
+    background-color:#fcbfd9;
+ 
+}
+
+.navbar{
+    width:100%;
+
+}
+
+.care{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.logo{
+    width: 100px;
+    margin-left: 10px;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+
+.header{
+	width:100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+blockquote{
+    font-size: 1.7em;
+    font-family: 'Sintony', sans-serif;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+
+blockquote:before{
+    content: open-quote;
+}
+
+blockquote cite {
+	font-size: 0.7em;
+	display: block;
+    margin-top: 0.5em;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 2em;
+    font-family: 'Sintony';
+    font-size: 15px;
+    color:#b2a796;
+}
+
+.linnea a{
+    text-decoration: underline;
+}
+
+
+.penny a{
+    text-decoration: underline;
+}
+
+.linnea{
+    float:left;
+    margin-left: 3em;
+    margin-top: 2em;
+    width: 40%;
+    font-family: 'Sintony';
+}
+
+
+
+.penny{
+    float:right;
+    margin-right: 3em;
+    margin-top: 2em;
+    font-family: 'Sintony';
+    width: 40%;
+}
